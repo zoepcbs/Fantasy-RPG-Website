@@ -1,0 +1,243 @@
+{
+  "subclasses": [
+    {
+      "name": "Warrior",
+      "health": 250,
+      "attackPower": 40,
+      "defense": 30,
+      "skill": "Earthshatter",
+      "image": "ImagesUsed/subclasses/Warrior.webp"
+    },
+    {
+      "name": "Mage",
+      "health": 100,
+      "attackPower": 50,
+      "defense": 10,
+      "skill": "Coalescence",
+      "image": "ImagesUsed/subclasses/Mage.webp"
+    },
+    {
+      "name": "Thief",
+      "health": 120,
+      "attackPower": 20,
+      "defense": 15,
+      "skill": "Swiftblade",
+      "image": "ImagesUsed/subclasses/Thief.webp"
+    },
+    {
+      "name": "Archer",
+      "health": 170,
+      "attackPower": 30,
+      "defense": 20,
+      "skill": "Dragonstrike",
+      "image": "ImagesUsed/subclasses/Archer.webp"
+    }
+  ],
+  "enemies": [
+    {
+      "name": "Goblin",
+      "health": 50,
+      "attackPower": 10,
+      "defense": 2,
+      "image": "ImagesUsed/Enemies/Goblin.webp"
+    },
+    {
+      "name": "Troll",
+      "health": 100,
+      "attackPower": 15,
+      "defense": 5,
+      "image": "ImagesUsed/Enemies/Troll.webp"
+    },
+    {
+      "name": "Undead Soldier",
+      "health": 120,
+      "attackPower": 18,
+      "defense": 7,
+      "image": "ImagesUsed/Enemies/UndeadSoldier.webp"
+    },
+    {
+      "name": "King's Soldier",
+      "health": 90,
+      "attackPower": 14,
+      "defense": 6,
+      "image": "ImagesUsed/Enemies/KingsSoldier.webp"
+    },
+    {
+      "name": "Dragon",
+      "health": 200,
+      "attackPower": 30,
+      "defense": 12,
+      "image": "ImagesUsed/Enemies/Dragon.webp"
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Axe",
+      "power": 12,
+      "cost": 120,
+      "description": "A heavy battle axe that deals significant damage with each strike.",
+      "image": "ImagesUsed/Weapons/Axe.webp"
+    },
+    {
+      "name": "Cave Staff",
+      "power": 14,
+      "cost": 140,
+      "image": "ImagesUsed/Weapons/CaveStaff.webp",
+      "description": "A mysterious staff found in ancient caves, imbued with primordial magic."
+    },
+    {
+      "name": "Craftsman Bow",
+      "power": 10,
+      "cost": 100,
+      "image": "ImagesUsed/Weapons/CraftsmanBow.webp",
+      "description": "A finely crafted bow made by master artisans, offering excellent accuracy."
+    },
+    {
+      "name": "Excalibur Sword",
+      "power": 25,
+      "cost": 300,
+      "image": "ImagesUsed/Weapons/ExcaliburSword.webp",
+      "description": "A legendary sword of immense power, said to have belonged to ancient kings."
+    },
+    {
+      "name": "Iron Dagger",
+      "power": 8,
+      "cost": 80,
+      "image": "ImagesUsed/Weapons/Iron Dagger.webp",
+      "description": "A simple iron dagger, quick and easy to wield in close combat."
+    },
+    {
+      "name": "Lunar Staff",
+      "power": 18,
+      "cost": 220,
+      "image": "ImagesUsed/Weapons/LunarStaff.webp",
+      "description": "A staff that harnesses the power of the moon, glowing with ethereal light."
+    },
+    {
+      "name": "Magic Shield",
+      "power": 5,
+      "cost": 150,
+      "image": "ImagesUsed/Weapons/MagicShield.webp",
+      "defense": 15,
+      "description": "A shield infused with protective magic, offering enhanced defense."
+    },
+    {
+      "name": "Mystic Bow",
+      "power": 16,
+      "cost": 180,
+      "image": "ImagesUsed/Weapons/MysticBow.webp",
+      "description": "A bow enchanted with mysterious arcane energies, firing arrows of pure magic."
+
+    },
+    {
+      "name": "Nature Staff",
+      "power": 15,
+      "cost": 160,
+      "image": "ImagesUsed/Weapons/NatureStaff.webp",
+      "description": "A staff carved from ancient wood that channels the power of nature itself."
+    },
+    {
+      "name": "Necro Sword",
+      "power": 20,
+      "cost": 250,
+      "image": "ImagesUsed/Weapons/NecroSword.webp",
+      "description": "A dark blade that drains life essence from enemies with each strike."
+    },
+    {
+      "name": "Royal Shield",
+      "power": 3,
+      "cost": 200,
+      "image": "ImagesUsed/Weapons/RoyalShield.webp",
+      "defense": 20,
+      "description": "A magnificent shield adorned with royal insignia, providing superior protection."
+    },
+    {
+      "name": "Runed Dagger",
+      "power": 15,
+      "cost": 170,
+      "image": "ImagesUsed/Weapons/RunedDagger.webp",
+      "description": "A dagger inscribed with ancient runes that enhance its cutting power."
+    },
+    {
+      "name": "Sorcerers Trident",
+      "power": 22,
+      "cost": 280,
+      "image": "ImagesUsed/Weapons/SorcerersTrident.webp",
+      "description": "A powerful trident wielded by the most powerful of sorcerers, crackling with elemental energy."
+    }
+  ],
+  "armor": [
+    {
+      "name": "Cloak",
+      "defense": 5,
+      "cost": 50,
+      "image": "ImagesUsed/Armor/Cloak.webp",
+      "description": "Heavyweight fabric garment that drapes over the shoulders, offering minimal protection but excellent mobility"
+    },
+    {
+      "name": "Thief Threads",
+      "defense": 20,
+      "cost": 100,
+      "image": "ImagesUsed/Armor/ThiefThreads.webp",
+      "description": "Sturdy, form-fitting armor crafted from dark leather, designed for silent movement and quick getaways."
+    },
+    {
+      "name": "Classic Armor",
+      "defense": 35,
+      "cost": 200,
+      "image": "ImagesUsed/Armor/ClassicArmor.webp",
+      "description": "Light armor made from leather, offering basic protection."
+    },
+    {
+      "name": "Mage Robes",
+      "defense": 15,
+      "cost": 275,
+      "image": "ImagesUsed/Armor/MageRobe.webp",
+      "description": "Robes enchanted with defensive runes that provide decent protection and enhance magical abilities."
+    },
+    {
+      "name": "Dragon Armor",
+      "defense": 60,
+      "cost": 375,
+      "image": "ImagesUsed/Armor/DragonArmor.webp",
+      "description": "Armor forged from dragon scales, providing exceptional protection against both physical and magical attacks."
+    }
+  ],
+  "locations": [
+    {
+        "name": "Dark Castle",
+        "description": "A foreboding castle shrouded in eternal night.",
+        "image": "ImagesUsed/Locations/DarkCastle.webp",
+        "enemyTypes": ["Undead Soldier"],
+        "storyText": "The castle's towering spires pierce the sky. Inside, shadows twist and watch your every move."
+    },
+    {
+        "name": "Enchanted Forest",
+        "description": "A magical forest where beauty hides danger.",
+        "image": "ImagesUsed/Locations/EnchantedForest.webp",
+        "enemyTypes": ["Goblin"],
+        "storyText": "Mystical lights dance through the trees. The air hums with magic—and menace."
+    },
+    {
+        "name": "Forbidden Forest",
+        "description": "An untamed wilderness avoided by even the bravest.",
+        "image": "ImagesUsed/Locations/ForbiddenForest.webp",
+        "enemyTypes": ["Troll"],
+        "storyText": "Gnarled trees and thick mist obscure your path. Danger lurks behind every bush."
+    },
+    {
+        "name": "Great Mountains",
+        "description": "Snowy peaks where dragons and ancient secrets sleep.",
+        "image": "ImagesUsed/Locations/GreatMountains.webp",
+        "enemyTypes": ["Dragon"],
+        "storyText": "Cold winds bite at your face as you scale the steep trails. A roar echoes across the peaks..."
+    },
+    {
+        "name": "Royal Castle",
+        "description": "The seat of power and the heart of the kingdom.",
+        "image": "ImagesUsed/Locations/RoyalCastle.webp",
+        "enemyTypes": ["King's Soldier"],
+        "storyText": "Golden banners fly in the wind as you approach the Royal Castle. It now stands as a fortress against you. Branded a traitor, you are now being hunted down by the Royal Guard."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fantasy RPG</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Fantasy Journey</h1>
+
+    <div id="game-container">
+      <div id="main-content">
+        <div id="image-panel">
+          <img id="location-image" src="ImagesUsedWorld.webp" alt="Scene" style="max-width: 100%; height: auto; border-radius: 10px; margin: 10px 0;">
+        </div>
+
+        <div id="story-panel" class="story"></div>
+
+        <div id="action-buttons"></div>
+        
+        <div id="health-bar">
+          <canvas id="game-canvas" width="400" height="30"></canvas>
+        </div>
+
+        <div id="game-controls">
+          <button id="save-game">Save Game</button>
+          <button id="load-game">Load Game</button>
+          <button id="end-game">End Game</button>
+        </div>
+      </div>
+
+      <div id="sidebar">
+        <div id="stats-panel" class="stats"></div>
+        <div id="inventory-panel" class="inventory">
+          <h3>Inventory</h3>
+          <div id="inventory-list"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
