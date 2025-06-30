@@ -99,6 +99,7 @@ Functional Requirements
 
 
 🔹Interface Requirements
+
 ●	index.html: Webpage layout with images, story panel, buttons, and canvas
 
 ●	style.css: Clean and readable layout; fantasy or medieval theme encouraged
