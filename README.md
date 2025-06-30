@@ -64,7 +64,7 @@ Functional Requirements
 
 ●	Use the <canvas> element to draw at least one visual:
 
-○	Health bars, battle effects, basic map, or item icons
+  -	Health bars, battle effects, basic map, or item icons
 
 ●	Must be updated as gameplay progresses
 
